@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="عن حزب الوقاية والحفظ" />
+        <item
+            android:id="@+id/nav_hamed"
+            android:icon="@drawable/ic_p"
+            android:title="عن الحبيب حامد بن علوي الحداد"/>
+        <item
+            android:id="@+id/nav_alawi"
+            android:icon="@drawable/ic_p"
+            android:title="عن الحبيب علوي بن طاهر الحداد" />
+        <item
+            android:id="@+id/nav_coder"
+            android:icon="@drawable/ic_pt"
+            android:title="مبرمج التطبيق" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="مشاركة التطبيق" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/favorite1"
+            android:title="تقيم التطبيق" />
+    </group>
+
+</menu>

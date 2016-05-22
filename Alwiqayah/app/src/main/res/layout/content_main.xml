@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mj7addadcoder.alwiqayah.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:supportsRtl="false">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp">
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageButton"
+                    android:visibility="visible"
+                    android:layout_marginLeft="15dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_app1" />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageButton2"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_app2" />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageButton3"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_app3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp">
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageButton4"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_app4" />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageButton5"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_app5" />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageButton6"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_app6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp">
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageButton7"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_app7" />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageButton8"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_app8" />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageButton9"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_app9" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp">
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageButton10"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_app10" />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageButton11"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_app11" />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageButton12"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_app12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scrollIndicators="top|bottom">
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageButton13"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_app13"
+                    android:focusableInTouchMode="true"
+                    android:focusable="true"
+                    android:nestedScrollingEnabled="true" />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageButton14"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_app14" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
